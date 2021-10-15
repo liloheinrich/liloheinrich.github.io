@@ -2353,7 +2353,8 @@ input, select, textarea {
 				}
 
 	.dropotron {
-		background: rgba(255, 255, 255, 0.975);
+		/* background: rgba(255, 255, 255, 0.975); */
+		background: rgba(0, 0, 0, 0.975);
 		padding: 1em 1.25em 1em 1.25em;
 		line-height: 1em;
 		height: auto;
@@ -2400,9 +2401,12 @@ input, select, textarea {
 				left: 50%;
 				top: -0.7em;
 				margin-left: -0.75em;
-				border-bottom: solid 0.75em rgba(255, 255, 255, 0.975);
+				/* border-bottom: solid 0.75em rgba(255, 255, 255, 0.975);
 				border-left: solid 0.75em rgba(64, 64, 64, 0);
-				border-right: solid 0.75em rgba(64, 64, 64, 0);
+				border-right: solid 0.75em rgba(64, 64, 64, 0); */
+				border-bottom: solid 0.75em rgba(0, 0, 0, 0.975);
+				border-left: solid 0.75em rgba(0, 0, 0, 0.975);
+				border-right: solid 0.75em rgba(0, 0, 0, 0.975);
 			}
 
 /* Banner */
@@ -2915,7 +2919,8 @@ input, select, textarea {
 						font-style: normal;
 						content: '\f0c9';
 						color: #fff;
-						color: rgba(255, 255, 255, 0.75);
+						/* color: rgba(255, 255, 255, 0.75); */
+						color: rgba(0,0,0,0.75);
 						text-align: center;
 						display: block;
 						font-size: 14px;
@@ -2976,7 +2981,8 @@ input, select, textarea {
 					padding: 0.5em;
 					color: #ddd;
 					border: 0;
-					border-top: dotted 1px rgba(255, 255, 255, 0.05);
+					/* border-top: dotted 1px rgba(255, 255, 255, 0.05); */
+					border-top: dotted 1px rgba(0, 0, 0, 0.05);
 				}
 
 					#navPanel .link:first-child {
