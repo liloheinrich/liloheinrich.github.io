@@ -1,4 +1,2 @@
-# liloheinrich.github.io
+# [liloheinrich.github.io](liloheinrich.github.io)
 Personal Portfolio Webpage
-
-See it [here](liloheinrich.github.io)!
