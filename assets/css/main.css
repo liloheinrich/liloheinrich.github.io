@@ -16,7 +16,7 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video, p, ul {
+section, summary, time, mark, audio, video, p, ul, h1, h2, h3 {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -31,6 +31,13 @@ section, summary, time, mark, audio, video, p, ul {
 /* white-space: nowrap; */
 /* p { margin: 0; } */
 /* ul { margin-top: 0; }  */
+
+.front h1 {
+	margin: 0
+  }
+  .front h2 {
+	margin: 0
+  }
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
