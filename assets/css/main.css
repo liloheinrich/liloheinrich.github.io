@@ -16,7 +16,7 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video, p, ul, h1, h2, h3 {
+section, summary, time, mark, audio, video, p, ul {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -31,6 +31,47 @@ section, summary, time, mark, audio, video, p, ul, h1, h2, h3 {
 /* white-space: nowrap; */
 /* p { margin: 0; } */
 /* ul { margin-top: 0; }  */
+
+
+/* h1 {
+	font-weight: bold;
+	color: #fff;
+	font-size: 36px !important;
+	font: inherit !important;
+}
+
+h2 {
+	font-weight: bold;
+	color: #fff;
+	font-size: 32px;
+	font: inherit !important;
+}
+
+*/
+
+
+h2 {
+	font-weight: normal !important;
+	color: white;
+	font-size: 48px !important;
+	font: inherit !important;
+	letter-spacing: 2px;
+}
+
+h3 {
+	font-weight: normal !important;
+	color: #bbb;
+	font-size: 28px !important;
+	font: inherit !important;
+	letter-spacing: 2px;
+}
+
+p {
+	font-size: 14px !important;
+	margin: 0;
+	padding: 0;
+	/*font: inherit !important;*/
+}
 
 
 .main-box {
@@ -2571,7 +2612,8 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
-			font-size: 24px;
+			font-size: 20px;
+			margin-top: .5em;
 		}
 
 		.icon.major {
@@ -2584,6 +2626,7 @@ input, select, textarea {
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
+			
 		}
 
 			.icon.major:before {
