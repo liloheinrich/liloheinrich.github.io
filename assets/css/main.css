@@ -50,6 +50,56 @@ h2 {
 */
 
 
+
+
+
+br, ul, p {
+	line-height: 20px;
+	padding: 0;
+	margin: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h3, h2 {
+	line-height: normal;
+	padding: 0;
+	margin: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+	p + ul {
+		margin-top: -15px;
+	}
+
+	ul + p {
+		margin-top: -15px;
+	}
+
+	h3 + ul {
+		margin-top: -15px;
+	}
+
+	h2 + ul {
+		margin-top: -15px;
+	}
+
+h3 + p {
+	margin-top: -8px;
+}
+
+h2 + p {
+	margin-top: -8px;
+}
+
+	hr + p {
+		margin-top: -20px;
+	}
+
+
+
+
 h2 {
 	font-weight: normal !important;
 	color: white;
@@ -1935,11 +1985,11 @@ input, select, textarea {
 		display: inline-block;
 		font-size: 0.6em;
 		font-weight: bold;
-		height: calc(4.75em + 2px);
+		height: calc(4.75em + 0px);
 		letter-spacing: 0.25em;
 		line-height: 4.75em;
 		outline: 0;
-		padding: 0 3.75em;
+		padding: 0 2.75em;
 		position: relative;
 		text-align: center;
 		text-decoration: none;
@@ -2612,8 +2662,8 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
-			font-size: 20px;
-			margin-top: .5em;
+			font-size: 18px;
+			margin-top: .25em;
 		}
 
 		.icon.major {
@@ -2802,7 +2852,7 @@ input, select, textarea {
 		}
 
 			ul.actions.stacked li {
-				padding: 1.3em 0 0 0;
+				padding: .5em 0 0 0;
 			}
 
 				ul.actions.stacked li:first-child {
